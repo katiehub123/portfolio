@@ -1,0 +1,19 @@
+nav{
+     padding: 2rem;
+     background-color: darksalmon;
+     ul{
+          display: flex;
+          list-style: none;
+          padding: 0;
+          li{
+               a{
+                    padding: 1rem;
+                    text-decoration: none;
+                    color: aliceblue;
+                    &:hover{
+                         color: burlywood;
+                    }
+               }
+          }
+     }
+}
