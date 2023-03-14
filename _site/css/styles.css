@@ -1,6 +1,7 @@
 nav {
   padding: 2rem;
   background-color: darksalmon;
+  margin: auto;
 }
 nav ul {
   display: flex;
@@ -14,6 +15,36 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: burlywood;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list-card {
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.question {
+  padding: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.submitBtn {
+  border: none;
+  border-radius: 2rem;
+  background-color: darksalmon;
+  color: #fff;
+  padding: 0.7rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+form {
+  background-color: rgb(209, 224, 255);
+  padding: 3rem;
 }
 
 body {
@@ -32,12 +63,19 @@ h1 {
   font-weight: thin;
 }
 
+h2 {
+  font-size: 2rem;
+  color: rgb(150, 183, 255);
+  font-weight: thin;
+}
+
 p {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  line-height: 2rem;
 }
 
 img {
-  height: 20rem;
+  height: 10rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
