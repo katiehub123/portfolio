@@ -1,8 +1,8 @@
 ---
 layout: layout.html
-title: Contact
+title: Sign Up
 eleventyNavigation:
-     key: Contact Us
+     key: Sign Up
      order: 1
 ---
 
