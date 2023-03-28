@@ -1,8 +1,8 @@
 ---
 layout: layout.html
-title: Zootizens
+title: About
 eleventyNavigation:
-     key: Zootizens
+     key: About
 ---
 
 # Zootizens
