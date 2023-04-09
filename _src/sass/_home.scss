@@ -1,0 +1,66 @@
+.left {
+     position: fixed;
+     margin: 10vh 5vh;
+     width: 44vw;
+     height: 85vh;
+ }
+ .left div {
+     position: absolute;
+     height: 100%;
+     top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     z-index: -1;
+ }
+ .left div.inview {
+     transform:translate(0);
+     z-index: 0;
+ }
+ .left div.show {
+     z-index: 1;
+     animation: slidedown 500ms ease-out;
+ }
+ @keyframes slidedown {
+     from {
+         transform: translateY(-100%);
+     }
+     to {
+         transform: translateY(0);
+     }
+ }
+ .right {
+     float: right;
+     width: 50vw;
+ }
+ .right div {
+     height: 70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .left-1, .right-1 {
+     background-color: #172760;
+ }
+ .left-2, .right-2 {
+     background-color: #ECB448;
+ }
+ .left-3, .right-3 {
+     background-color: #788159;
+ }
+ 
+ 
+ 
+ .fadein {
+     transform: translateX(calc(-100% - 5vw));
+     transition: 200ms all;
+ }
+ .fadein.show {
+     transform: translateX(0);
+ }
+ 
+ .right-1 img{
+     height: 100%;
+ }

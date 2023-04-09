@@ -17,65 +17,19 @@ nav ul li a:hover {
   color: burlywood;
 }
 
-.list {
-  display: flex;
-  justify-content: center;
+@font-face {
+  font-family: Excelorate;
+  src: url("../font/excelorate-font.otf");
 }
-.list-card {
-  padding: 2rem;
-  margin: 2rem;
-  text-align: center;
+@font-face {
+  font-family: Harlow;
+  src: url("../font/harlowsolideregular.ttf");
 }
-
-.question {
-  padding: 0.5rem;
-  font-size: 1.7rem;
-}
-
-.submitBtn {
-  border: none;
-  border-radius: 2rem;
-  background-color: darksalmon;
-  color: #fff;
-  padding: 0.7rem;
-  margin: 1rem;
-  font-size: 1.4rem;
-}
-
-form {
-  background-color: rgb(209, 224, 255);
-  padding: 3rem;
-}
-
 body {
-  font-family: sans-serif;
+  font-family: Harlow, sans-serif;
+  color: #f98787;
   margin: 0;
-  color: #333;
-}
-
-.main {
-  padding: 4vw 15vw;
-}
-
-h1 {
-  font-size: 3rem;
-  color: orange;
-  font-weight: thin;
-}
-
-h2 {
-  font-size: 2rem;
-  color: rgb(150, 183, 255);
-  font-weight: thin;
-}
-
-p {
-  font-size: 1.7rem;
-  line-height: 2rem;
-}
-
-img {
-  height: 10rem;
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

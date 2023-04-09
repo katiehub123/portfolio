@@ -1,6 +1,6 @@
 ---
 layout: layout.html
-title: Zootizens
+title: Katie Hoang's Portfolio
 eleventyNavigation:
      key: Zootizens
 ---
