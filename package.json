@@ -6,15 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "npx sass _src/sass:_site/css --watch",
-    "start": "npm run watch:eleventy & npm run watch:sass"
+    "start": "npm run watch:eleventy "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "sass": "^1.58.3"
+    "@11ty/eleventy": "^2.0.0"
   }
 }

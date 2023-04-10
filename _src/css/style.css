@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Excelorate;
+    src: url("../font/excelorate-font.otf");
+  }
+  @font-face {
+    font-family: Harlow;
+    src: url("../font/harlowsolideregular.ttf");
+  }
+body {
+    font-family: Harlow, sans-serif;
+    color: #f98787;
+    margin: 0;
+    background-color: black;
+}
+h1{
+    font-family: Excelorate;
+}
+.header{
+    width: 44vw;
+    position: fixed;
+    padding: 2rem;
+    display: flex;
+    background-color: black;
+}
+.header img{
+    height: 2.5rem;
+    margin: auto 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-6rem)
+}
+.left {
+    position: fixed;
+    margin: 10vh 5vh;
+    width: 44vw;
+    height: 85vh;
+    z-index: -1;
+}
+.left div {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: -1;
+}
+.left div.inview {
+    transform:translate(0);
+    z-index: 0;
+}
+.left div.show {
+    z-index: 1;
+    animation: slidedown 500ms ease-out;
+}
+@keyframes slidedown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.right {
+    float: right;
+    width: 50vw;
+}
+.right div {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-1, .right-1 {
+    background-color: #172760;
+}
+.left-2, .right-2 {
+    background-color: #ECB448;
+}
+.left-3, .right-3 {
+    background-color: #788159;
+}
+
+
+
+.fadein {
+    transform: translateX(calc(-100% - 5vw));
+    transition: 200ms all;
+}
+.fadein.show {
+    transform: translateX(0);
+}
+
+.right-1 img{
+    height: 100%;
+}
+.nav{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    background-color: rgb(14, 28, 40);
+    background-size: 100% auto;
+    position: relative;
+    z-index: 5;
+}
+.nav:hover{
+    background-color: aqua;
+}
+@keyframes menuShow {
+    from {top: -50%;}
+    to {top: 50%;}
+}
+@keyframes menuClose {
+from {top: 50%;}
+to {top: -50%;}
+}
+
+.menu{
+    padding-top: 20rem;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    font-size: 10em;
+    z-index: 4;
+}
+.menu h1{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.menu h1:hover{
+    color: aquamarine;
+}
+
+.menu.open{
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: menuShow 1000ms ease-in;
+}

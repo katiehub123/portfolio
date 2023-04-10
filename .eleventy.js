@@ -1,6 +1,8 @@
 module.exports = function(eleventyConfig){
      eleventyConfig.addPassthroughCopy('_src/img')
-     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+     eleventyConfig.addPassthroughCopy('_src/css')
+     eleventyConfig.addPassthroughCopy('_src/js')
+     eleventyConfig.addPassthroughCopy('_src/font')
      return {
           dir: {
                input: "_src"
@@ -8,4 +10,3 @@ module.exports = function(eleventyConfig){
      }
 }
 
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
