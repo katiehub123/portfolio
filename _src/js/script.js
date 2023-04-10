@@ -51,6 +51,7 @@ let drawer = document.querySelector('.menu');
 // 2. describe our function, which is to toggle the class “open” on the drawer element
 function toggleClass() {
 drawer.classList.toggle('open');
+button.classList.toggle('show');
 }
 
 // 3. create an event listener on the button element that runs our function when a user clicks the it
