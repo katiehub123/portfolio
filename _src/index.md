@@ -3,13 +3,22 @@ layout: layout.html
 ---
 <div class="left">
      <div class="left-1" id="1">
-          <h1>Star Protector</h1>
+          <div class="content">
+               <h1>Mr. Ray</h1>
+               <p>8-bit Game Animal Cruelty PSA</p>
+          </div>
      </div>
      <div class="left-2" id="2">
-          <h1>Magical Wands</h1>
+          <div class="content">
+               <h1>Haidilao Date</h1>
+               <p>SqueakVille Project 2022</p>
+          </div>    
      </div>
      <div class="left-3" id="3">
-          <h1>Powerpuff Girls</h1>
+          <div class="content">
+               <h1>Star Protector</h1>
+               <p>SqueakVille Project 2022</p>
+          </div>  
      </div>     
 </div>
 <div class="right">

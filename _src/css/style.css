@@ -15,6 +15,11 @@ body {
 h1{
     font-family: Excelorate;
 }
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
 .header{
     width: 44vw;
     position: fixed;
@@ -67,7 +72,7 @@ h1{
     width: 50vw;
 }
 .right div {
-    height: 70vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +156,7 @@ to {top: -50%;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: menuShow 1000ms ease-in;
+    animation: menuShow 700ms ease-out;
 }
 
 a{
@@ -174,4 +179,9 @@ a:hover{
 
 .left.about{
     background:url("../img/aboutme.png") no-repeat;
+    background-size: contain;
+}
+.left.contact{
+    background:url("../img/contactme.png") no-repeat;
+    background-size: contain;
 }
