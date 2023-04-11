@@ -1,7 +1,9 @@
 ---
 layout: layout.html
 ---
-<div class="left about">     
-</div>
-<div class="right">
+<div class="gallery">
+<div class="thumbnail"></div>
+<div class="thumbnail"></div>
+<div class="thumbnail"></div>
+<div class="thumbnail"></div>
 </div>

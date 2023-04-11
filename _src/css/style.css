@@ -79,13 +79,13 @@ h1{
 }
 
 .left-1{
-    background-color: #eb5f88;
+    background: linear-gradient(90deg, rgba(235,95,136,1) 0%, rgba(76,199,229,1) 100%);
 }
 .left-2{
-    background-color: #4cc7e5;
+    background:linear-gradient(90deg, rgba(76,199,229,1) 0%, rgba(158,124,184,1) 100%);
 }
 .left-3{
-    background-color: #9e7cb8;
+    background:linear-gradient(90deg, rgba(158,124,184,1) 0%, rgba(235,95,136,1) 100%);
 }
 .right-1{
     background: url("../img/star.png") no-repeat 50% 10%;
@@ -167,8 +167,8 @@ a:hover{
     color: #4cc7e5;
 }
 .homeBtn{
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     cursor: pointer;
     background:url("../img/moonWand.png") no-repeat;
     background-size: 50% 100%;
@@ -184,4 +184,18 @@ a:hover{
 .left.contact{
     background:url("../img/contactme.png") no-repeat;
     background-size: contain;
+}
+
+.gallery{
+    
+}
+
+.thumbnail{
+    background-color: rgba(235,95,136,1);
+    height: 35vh;
+    width: 75vw;
+    margin: 2rem auto;
+}
+.thumbnail:hover{
+    background-color: rgba(76,199,229,1);
 }
