@@ -17,5 +17,3 @@ title: Scrooge Label
      <img class="projectPhoto" src="../img/SB/sbMinion.png">
 </div>
 
-<div>
-</div>

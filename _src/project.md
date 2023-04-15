@@ -41,8 +41,7 @@ layout: layout.html
           <div class="overlay">
                <h1 class="thumbTitle">Annam Beans</h1>
           </div>
-     </a> 
-     
+     </a>  
 </div>
 </div>
 

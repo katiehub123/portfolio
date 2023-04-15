@@ -250,6 +250,7 @@ a:hover{
 .projectPhoto{
     width: 50vw;
     contain: content;
+    background-color: aqua;
 }
 .content{
     line-height: 2rem;
