@@ -11,6 +11,9 @@ title: Character Design
                </div>  
 </div>
 <div class="right">
-     <div class="projectPhoto"></div>
+     <img class="projectPhoto" src="../img/SB/sbA.png">
+     <img class="projectPhoto" src="../img/SB/sbB.png">
+     <img class="projectPhoto" src="../img/SB/sbD.png">
+     <img class="projectPhoto" src="../img/SB/sbMinion.png">
 </div>
 

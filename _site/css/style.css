@@ -35,7 +35,7 @@ h1{
     left: 50%;
     transform: translateX(-6rem)
 }
-.left {
+.left, .leftPage {
     position: fixed;
     margin: 10vh 5vh;
     width: 44vw;
@@ -68,9 +68,10 @@ h1{
         transform: translateY(0);
     }
 }
-.right {
+.right, .rightPage {
     float: right;
     width: 50vw;
+    z-index: -1;
 }
 .right div {
     height: 90vh;
@@ -79,7 +80,6 @@ h1{
     align-items: center;
     margin: 2rem;
 }
-
 .left-1{
     background: linear-gradient(90deg, rgba(235,95,136,1) 0%, rgba(76,199,229,1) 100%);
 }
@@ -249,9 +249,24 @@ a:hover{
 
 .projectPhoto{
     width: 50vw;
-    contain: content;
-    background-color: aqua;
+    contain: content; 
 }
 .content{
     line-height: 2rem;
+}
+.photo{
+    height: 80vh;
+}
+.sbA{
+    background:url("../img/SB/sbA.png") no-repeat 50% 50%;
+    background-size: contain;
+}
+.sbB{
+    background:url("../img/SB/sbB.png") no-repeat;
+    background-size: contain;
+}
+.annam{
+    background:url("../img/aboutme.png") no-repeat;
+    background-size: contain;
+    height: 100vh;
 }
