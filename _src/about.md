@@ -3,7 +3,7 @@ layout: layout.html
 ---
 <div class="left about">     
 </div>
-<div class="right info">
+<div class="right single">
 <h2>Hello, I'm Katie</h2>
 <p>I'm an IMD student at Confederation College. My passion includes creating simple illstration through a variety of mediums.</p>
 <ul>
@@ -12,3 +12,5 @@ layout: layout.html
      <li>Visual Studio Code</LI>
 </ul>
 </div>
+
+

@@ -3,5 +3,5 @@ layout: layout.html
 ---
 <div class="left contact">     
 </div>
-<div class="right">
+<div class="right single">
 </div>

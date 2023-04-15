@@ -179,6 +179,11 @@ a:hover{
     margin: auto;
 }
 
+.left.single{
+   font-size: 10vh;
+   word-wrap: break-word;
+   font-family: Excelorate;
+}
 .left.about{
     background:url("../img/aboutme.png") no-repeat;
     background-size: contain;
@@ -212,18 +217,26 @@ a:hover{
     width: 100%;
     opacity: 0;
     transition: 0.3s ease;
-    background-color: #4cc7e5;
+    background-color: #4cc6e583;
+    color: #f2f2f3;
   }
 .thumbnail:hover .overlay{
-    opacity: 0.5;
+    opacity: 1;
 }
 .thumbPhoto{
     object-fit: cover;
     max-width: 100%;
     height: 100%;
 }
-
-.right.info{
+.thumbTitle{
+    font-size: 2vh;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.right.single{
     margin: 10vh 5vh;
     width: 40vw;
     height: 60vh;
@@ -232,4 +245,12 @@ a:hover{
     font-size: 3rem;
     line-height: 5rem;
     border-radius: 2rem;
+}
+
+.projectPhoto{
+    width: 50vw;
+    contain: content;
+}
+.content{
+    line-height: 2rem;
 }
