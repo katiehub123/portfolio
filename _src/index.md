@@ -10,14 +10,14 @@ layout: layout.html
      </div>
      <div class="left-2" id="2">
           <div class="content">
-               <h1>Haidilao Date</h1>
-               <p>SqueakVille Project 2022</p>
+               <h1>Scrooge Label</h1>
+               <p>Cuphead Boss Level - Character Design</p>
           </div>    
      </div>
      <div class="left-3" id="3">
           <div class="content">
-               <h1>Star Protector</h1>
-               <p>SqueakVille Project 2022</p>
+               <h1>Annam Beans</h1>
+               <p>2023 Branding Kit and Design</p>
           </div>  
      </div>     
 </div>

@@ -8,8 +8,7 @@ layout: layout.html
           <div class="overlay">
                <h1 class="thumbTitle">Scrooge Label</h1>
           </div>
-     </a>
-     
+     </a>    
 </div>
 <div class="thumbnail">
      <img class="thumbPhoto" src="../img/characters/fishTrio.png">
@@ -44,4 +43,3 @@ layout: layout.html
      </a>  
 </div>
 </div>
-
