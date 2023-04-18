@@ -3,7 +3,7 @@ layout: layout.html
 title: Scrooge Label
 ---
 <div class="leftPage">
-               <div class="content">
+               <div class="content singlePage">
                <div class="titleOfContent">
                <h1>Scrooge Label</h1>
                <p>in "Rhythmic Labyrinth"</p>

@@ -26,6 +26,7 @@ h1{
     padding: 2rem;
     display: flex;
     background-color: black;
+    z-index: 1;
 }
 
 .header img{
@@ -70,8 +71,9 @@ h1{
 }
 .right, .rightPage {
     float: right;
+  
     width: 50vw;
-    z-index: -1;
+  
 }
 .right div {
     height: 90vh;
@@ -198,6 +200,7 @@ a:hover{
     height: 60vh;
     display: flex;
     justify-content: center;
+
 }
 .thumbnail{
     background-color: rgba(235,95,136,1);
@@ -245,6 +248,7 @@ a:hover{
     font-size: 3rem;
     line-height: 5rem;
     border-radius: 2rem;
+    text-align: center;
 }
 
 .projectPhoto{
@@ -254,8 +258,17 @@ a:hover{
 .content{
     line-height: 3rem;
 }
+.content.singlePage{
+    padding-top: 10vh;
+}
 .titleOfContent{
     text-align: center;
+}
+.collection{
+    margin: 2vh auto;
+}
+.collection img{
+    width: 50vw;
 }
 .photo{
     height: 70vh;
@@ -345,4 +358,11 @@ a:hover{
 .aE{
     background:url("../img/annam/social.png") no-repeat 50% 50%;
     background-size: 100% auto;
+}
+.link{
+    text-align: center;
+    font-family: Excelorate;
+}
+.emailicon{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

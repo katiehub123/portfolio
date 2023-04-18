@@ -30,7 +30,7 @@ layout: layout.html
      <img class="thumbPhoto" src="../img/squeak/squeakthumb.png">
      <a href="../squeakVille/index.html">
           <div class="overlay">
-               <h1 class="thumbTitle">SqueakVille</h1>
+               <h1 class="thumbTitle">PipsqueakVille</h1>
           </div>
      </a>   
 </div>
