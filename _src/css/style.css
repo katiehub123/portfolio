@@ -257,9 +257,11 @@ a:hover{
 }
 .content{
     line-height: 3rem;
+    text-align: center;
 }
 .content.singlePage{
     padding-top: 10vh;
+    text-align: left;
 }
 .titleOfContent{
     text-align: center;

@@ -13,9 +13,11 @@ title: Scrooge Label
                </div>  
 </div>
 <div class="rightPage">
-     <div class="photo sbA"></div>
-     <div class="photo sbB"></div>
-     <div class="photo sbD"></div>
-     <div class="photo sbMinion"></div>
+     <div class="collection">
+          <img src="../img/SB/sbA.png">
+          <img src="../img/SB/sbB.png">
+          <img src="../img/SB/sbD.png">
+          <img src="../img/SB/sbMinion.png">
+     </div>
 </div>
 
