@@ -6,7 +6,7 @@ title: Character Design
                <div class="content singlePage">
                <div class="titleOfContent">
                <h1>Character Design</h1>
-               <p>a collection of character designs since 2023</p>
+               <h2>a collection of character designs since 2023</h2>
                </div>
                <p>I can't pin point my style in to something specific because to me each character set tells a different a story and the style should elevate that. But overall, I enjoy characters with a mythic and magical feel. </p>
                </div>  

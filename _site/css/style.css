@@ -6,14 +6,21 @@
     font-family: Harlow;
     src: url("../font/harlowsolideregular.ttf");
   }
+  @font-face {
+    font-family: Josefin;
+    src: url("../font/JosefinSans-Regular.ttf");
+  }
 body {
-    font-family: Harlow, sans-serif;
+    font-family: Josefin, sans-serif;
     color: #f2f2f3;
     margin: 0;
     background-color: black;
 }
 h1{
     font-family: Excelorate;
+}
+h2{
+    font-family: Harlow;
 }
 .content{
     display: inline-flex;
@@ -260,7 +267,7 @@ a:hover{
     text-align: center;
 }
 .content.singlePage{
-    padding-top: 10vh;
+    padding-top: 5vh;
     text-align: left;
 }
 .titleOfContent{
@@ -272,99 +279,13 @@ a:hover{
 .collection img{
     width: 50vw;
 }
-.photo{
-    height: 70vh;
-    background-color: #f2f2f3;
-}
-.sbA{
-    background:url("../img/SB/sbA.png") no-repeat 50% 50%;
-    background-size: 100% 100%;
-}
-.sbB{
-    background:url("../img/SB/sbB.png") no-repeat 50% 50%;
-    background-size: 100% 100%;
-}
-.sbD{
-    background:url("../img/SB/sbD.png") no-repeat 50% 50%;
-    background-size: 100% 100%;
-}
-.sbMinion{
-    background:url("../img/SB/sbMinion.png") no-repeat 50% 50%;
-    background-size: 100% 100%;
-}
-.cA{
-    background:url("../img/characters/fishTrio.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-.cB{
-    background:url("../img/characters/star.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-.cC{
-    background:url("../img/characters/hero.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-.cD{
-    background:url("../img/characters/god.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-.cE{
-    background:url("../img/characters/weapon.png") no-repeat 50% 50%;
-    background-size: 70% auto;
-}
-.cF{
-    background:url("../img/characters/sketch.png") no-repeat 50% 50%;
-    background-size: 65% auto;
-}
-.cG{
-    background:url("../img/characters/card.png") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
-.sA{
-    background:url("../img/squeak/Flower_power.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-.sB{
-    background:url("../img/squeak/set2.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-.sC{
-    background:url("../img/squeak/maid.png") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
-.sD{
-    background:url("../img/squeak/squeakthumb.png") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
-.sE{
-    background:url("../img/squeak/Picnic.png") no-repeat 50% 50%;
-    background-size: 50% auto;
-}
-
-.aA{
-    background:url("../img/annam/art.png") no-repeat 50% 50%;
-    background-size: 90% auto;
-}
-.aB{
-    background:url("../img/annam/VER4.jpg") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
-.aC{
-    background:url("../img/annam/mugsmockup.png") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
-.aD{
-    background:url("../img/annam/STANDEEmOCKUP.png") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
-.aE{
-    background:url("../img/annam/social.png") no-repeat 50% 50%;
-    background-size: 100% auto;
-}
 .link{
     text-align: center;
     font-family: Excelorate;
 }
 .emailicon{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+li{
+    list-style: none;
 }

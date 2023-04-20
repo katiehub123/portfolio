@@ -6,7 +6,7 @@ layout: layout.html
           <div class="content">
           <a href="../mrRay/index.html">
                <h1>Mr. Ray</h1>
-               <p>8-bit Game Animal Cruelty PSA</p>
+               <h2>8-bit Game Animal Cruelty PSA</h2>
           </a>
           </div>
      </div>
@@ -14,7 +14,7 @@ layout: layout.html
           <div class="content">
           <a href="../sb/index.html">
                <h1>Scrooge Label</h1>
-               <p>Cuphead Boss Level - Character Design</p>
+               <h2>Cuphead Boss Level - Character Design</h2>
           </a>
           </div>
      </div>    
@@ -22,7 +22,7 @@ layout: layout.html
           <div class="content">
           <a href="../annam/index.html">
                <h1>Annam Beans</h1>
-               <p>2023 Branding Kit and Design</p>
+               <h2>2023 Branding Kit and Design</h2>
           </a>
           </div>  
      </div>    
