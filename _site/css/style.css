@@ -252,9 +252,8 @@ a:hover{
     transform: translate(-50%, -50%);
 }
 .right.single{
-    margin: 10vh 5vh;
+    margin: 20vh 5vh;
     width: 40vw;
-    height: 60vh;
     background-color: rgba(235,95,136,1);
     padding: 4vh;
     font-size: 3vh;
