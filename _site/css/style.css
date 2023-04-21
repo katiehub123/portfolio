@@ -50,6 +50,9 @@ h2{
     height: 85vh;
     z-index: -1;
 }
+.leftPage{
+    overflow-y: auto;
+}
 .left div {
     position: absolute;
     height: 100%;
@@ -160,8 +163,12 @@ to {top: -50%;}
     margin: auto;
     width: fit-content;
     text-align: center;
+    font-size: 23vh;
+    visibility: collapse;
 }
-
+.menu.open h1{
+    visibility: visible;
+}
 .menu.open{
     height: 100vh;
     top: 50%;
@@ -269,6 +276,8 @@ a:hover{
 .content.singlePage{
     padding-top: 5vh;
     text-align: left;
+    position: absolute;
+    font-size: 2.5vh 2.5vw;
 }
 .titleOfContent{
     text-align: center;

@@ -10,11 +10,11 @@ title: Character Design
                </div>
                <p>Mr. Ray is a virtual helper who will walk you through an adventure to choose the right product. By choosing the right product, you will save Mr. Ray and his friend from bad chemicals. "Helping Mr. Ray" is an interactive ad. I hope with this ad, you will understand more about animal cruelty and why you should join the non-animal testing movement.</p>
 			<p>I used Adobe Illustrator and Animation to create this project. I really like the retro, 8-bit game feel.</p>
-               </div>  
-               <div id="animation_container" style="margin:auto;padding-top:1vh">
+			<div id="animation_container" style="margin:auto;padding-top:1vh">
 		<canvas id="canvas" width="1680" height="1400" style="position: absolute; display: block; background-color:rgba(250, 165, 70, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:336px; height:280px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
+               </div>   
 	</div>
 </div>
 <div class="rightPage">
