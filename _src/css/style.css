@@ -28,9 +28,9 @@ h2{
     font-size: 3vh;
 }
 .header{
-    width: 44vw;
+    width: 40vw;
     position: fixed;
-    padding: 2rem;
+    padding: 2vh;
     display: flex;
     background-color: black;
     z-index: 1;
@@ -81,9 +81,7 @@ h2{
 }
 .right, .rightPage {
     float: right;
-  
     width: 50vw;
-  
 }
 .right div {
     height: 90vh;
@@ -258,9 +256,9 @@ a:hover{
     width: 40vw;
     height: 60vh;
     background-color: rgba(235,95,136,1);
-    padding: 5rem;
-    font-size: 3rem;
-    line-height: 5rem;
+    padding: 4vh;
+    font-size: 3vh;
+    line-height: 5vh;
     border-radius: 2rem;
     text-align: center;
 }
